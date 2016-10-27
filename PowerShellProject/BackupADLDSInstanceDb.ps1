@@ -67,7 +67,6 @@ Invoke-expression $DumpIFM
 
 # Rename the dump file to give the backup a unique name
 rename-item $IFMDir\$ADLDSInstance\$IFMName -newname $backupfile
-"C:\Backup\ADLDS\Kollsys-Test\adamntds.dit"
 
 # End Main
 ##########
